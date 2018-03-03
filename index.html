@@ -1,61 +1,81 @@
 <html lang="en">
- <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="language" content="en-us" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
     <!-- for dev only -->
     <meta name="robots" content="noindex">
 
     <title>Kicks Blue Book - Sourced, Market-Value Sneaker Pricing</title>
-	<meta name="Description" content="Kicks Blue Book aims to be the de facto reference guide for the market-value of sneakers. Check the book!" />
-	
-	<!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NSH7D5M');</script>
+    <meta name="Description" content="Kicks Blue Book aims to be the de facto reference guide for the market-value of sneakers. Check the book!" />
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NSH7D5M');
+
+    </script>
     <!-- End Google Tag Manager -->
 
-	<link rel="shortcut icon" type="image/ico" href="http://www.kicksbluebook.edu/images/favicon.ico">
-	<link rel="icon" href="http://www.kicksbluebook.com/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" type="image/ico" href="http://www.kicksbluebook.edu/images/favicon.ico">
+    <link rel="icon" href="http://www.kicksbluebook.com/images/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.css">
     <link rel="stylesheet" type="text/css" href="css/site.css">
     <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.js"></script>
     <script src="js/main.js"></script>
 </head>
 
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSH7D5M"
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSH7D5M"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<header>
-    <div class="row">
-        <div class="columns large-6 medium-6 small-6 logo">
-            <a href="index.html" title="Kicks Blue Book"><img src="/images/logo.png" border="0" /></a>
+    <!-- End Google Tag Manager (noscript) -->
+    <header>
+        <div class="row">
+            <div class="columns large-6 medium-6 small-6 logo">
+                <a href="index.html" title="Kicks Blue Book"><img src="/images/logo.png" border="0" /></a>
+            </div>
+            <div class="columns large-6 medium-6 small-6 menu">
+                <button class="hamburger hamburger--slider" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+            </div>
         </div>
-        <div class="columns large-6 medium-6 small-6 menu">
-            <button class="hamburger hamburger--slider" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
-        </div>
-    </div>
-</header>
-
-
+    </header>
+    <section class="herosearch">
+        <div class="hero-title"><h1>Kicks Blue Book </h1></div>
+        <input id="cs" onblur="if (this.value == '') {this.value = 'Search for your kicks...';}" onfocus="if (this.value == 'Search for your kicks...') {this.value = '';}" value="Search for your kicks..." />
+        <i class="fa fa-search"></i>
+    </section>
+    <section class="featured-brands">
+       <h2></h2>
+    </section>
     <footer>
-      <div class="row">
-        <div class="columns large-5 small-12 desktoponly">
+        <div class="row">
+            <div class="columns large-5 small-12 desktoponly">
+            </div>
         </div>
-      </div>
     </footer>
 
 </body>
+
 </html>
