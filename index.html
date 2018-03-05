@@ -9,7 +9,7 @@
     <!-- for dev only -->
     <meta name="robots" content="noindex">
 
-    <title>Kicks Blue Book - Sourced, Market-Value Sneaker Pricing</title>
+    <title>Kicks Blue Book - Sourced, Market Value Sneaker Pricing</title>
     <meta name="Description" content="Kicks Blue Book aims to be the de facto reference guide for the market-value of sneakers. Check the book!" />
 
     <!-- Google Tag Manager -->
@@ -32,17 +32,17 @@
     </script>
     <!-- End Google Tag Manager -->
 
-    <link rel="shortcut icon" type="image/ico" href="http://www.kicksbluebook.edu/images/favicon.ico">
-    <link rel="icon" href="http://www.kicksbluebook.com/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" type="image/ico" href="https://www.kicksbluebook.edu/images/favicon.ico">
+    <link rel="icon" href="https://www.kicksbluebook.com/images/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.css">
     <link rel="stylesheet" type="text/css" href="css/site.css">
-    <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.css">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.js"></script>
     <script src="js/main.js"></script>
 </head>
 
@@ -58,24 +58,106 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="columns large-6 medium-6 small-6 menu">
                 <button class="hamburger hamburger--slider" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+                <div class="sitenav">
+                    <ul>
+                        <li><a title="Kicks Blue Book - Home" href="index.html">Home</a></li>
+                        <li><a title="Kicks Blue Book - Account" href="account.html">My Account</a></li>
+                        <li><a title="Kicks Blue Book - Latest Hype" href="hype.html">Latest Hype</a></li>
+                        <li><a title="Kicks Blue Book - Featured Brands" href="featured.html">Featured Brands</a></li>
+                        <li><a title="Kicks Blue Book - Release Dates" href="releases.html">Release Dates</a></li>
+                        <li><a title="Kicks Blue Book - Donate" href="donate.html">Donate</a></li>
+                        <li><a title="Kicks Blue Book - FAQ" href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
-    <section class="herosearch">
-        <div class="hero-title"><h1>Kicks Blue Book </h1></div>
-        <input id="cs" onblur="if (this.value == '') {this.value = 'Search for your kicks...';}" onfocus="if (this.value == 'Search for your kicks...') {this.value = '';}" value="Search for your kicks..." />
-        <i class="fa fa-search"></i>
+    <section class="hero-search">
+        <div class="hero-title"><h1>Kicks Blue Book</h1></div>
+        <div class="hero-subtitle"><h2>Find the market value of your favorite sneakers</h2></div>
+        <div class="search-container">
+            <input id="cs" onblur="if (this.value == '') {this.value = 'Search for your kicks...';}" onfocus="if (this.value == 'Search for your kicks...') {this.value = '';}" value="Search for your kicks..." />
+            <i class="fa fa-search"></i>
+        </div>
     </section>
     <section class="featured-brands">
-       <h2></h2>
+        <h2>Featured Brands</h2>
+        <div class="row">
+            <div class="columns large-4 medium-4 small-12">
+                <h3>Nike</h3>
+                <div class="featured-nike">
+                    <!-- js load of most recent hottest nike release -->
+                </div>
+            </div>
+            <div class="columns large-4 medium-4 small-12">
+                <h3>Adidas</h3>
+                <div class="featured-adidas">
+                    <!-- js load of most recent hottest adidas release -->
+                </div>
+            </div>
+            <div class="columns large-4 medium-4 small-12">
+                <h3>Jordan</h3>
+                <div class="featured-jordan">
+                    <!-- js load of most recent hottest jordan release -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news-releases">
+        <div class="row">
+            <div class="columns large-6 medium-6 small-12">
+                <h2>News</h2>
+                <div class="latest-news">
+                    <!-- js load of most recent news -->
+                </div>
+            </div>
+            <div class="columns large-6 medium-6 small-12">
+                <h2>Release Dates</h2>
+                <div class="release-nike">
+                   <h3>Nike</h3>
+                   <p></p>
+                    <!-- js load of most recent hottest adidas release -->
+                </div>
+                <div class="release-adidas">
+                   <h3>Adidas</h3>
+                   <p></p>
+                    <!-- js load of most recent hottest adidas release -->
+                </div>
+                <div class="release-jordan">
+                   <h3>Jordan</h3>
+                   <p></p>
+                    <!-- js load of most recent hottest adidas release -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="donate">
+        <div class="row">
+            <div class="columns large-6 medium-6 small-12">
+                <h2>Donate</h2>
+                <p>Help keep the site going. KBB is supported by its users, and we appreciate and love you all. Thank you.</p>
+                <button class="donate-btn">Donate</button>
+            </div>
+        </div>
     </section>
     <footer>
         <div class="row">
-            <div class="columns large-5 small-12 desktoponly">
+            <div class="columns large-12 medium-12 small-12 footer-links">
+                <ul>
+                    <li><a title="Kicks Blue Book - Home" href="index.html">Home</a></li>
+                    <li><a title="Kicks Blue Book - Account" href="account.html">My Account</a></li>
+                    <li><a title="Kicks Blue Book - Latest Hype" href="hype.html">Latest Hype</a></li>
+                    <li><a title="Kicks Blue Book - Featured Brands" href="featured.html">Featured Brands</a></li>
+                    <li><a title="Kicks Blue Book - Release Dates" href="releases.html">Release Dates</a></li>
+                    <li><a title="Kicks Blue Book - Donate" href="donate.html">Donate</a></li>
+                    <li><a title="Kicks Blue Book - FAQ" href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="columns large-12 medium-12 small-12 footer-info">
+                &copy; <a href="https://www.kicksbluebook.com" title="Kicks Blue Book">kicksbluebook.com</a>. 2018 - All rights reserved.
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>
