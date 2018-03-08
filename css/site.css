@@ -4,3 +4,4 @@ body{background-color:rgba(0, 0, 0, 0.5); background-image: url(../images/logobg
 
 header .hdr-cont{background: #FFF;border-bottom: 1px solid rgba(250,250,250,0.4);}
 header .logo { flex-basis: 15%;-webkit-flex-basis:15%; display: flex;display:-webkit-flex;justify-content: flex-start;-webkit-justify-content:flex-start;align-items:center;-webkit-align-items:center;}
+header .logo .logo-box{font-family: 'Trocchi', serif;}
